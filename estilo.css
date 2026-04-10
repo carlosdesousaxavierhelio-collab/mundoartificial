@@ -1,0 +1,19 @@
+    body {
+         font-family: "Sekuya", system-ui;
+         text-align: center;
+         margin-top: 10%;
+         background-color: bisque;
+    }
+
+    input, button{
+        padding: 5px;
+        margin: 2px;
+        font-size: 16px;
+    }
+
+    #resultado{
+       margin-top: 20px;
+       font-size: 18px;     
+    }
+
+    
