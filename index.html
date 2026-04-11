@@ -11,13 +11,19 @@
 </head>
 
 <body>
-    <h1>tempo hoje</h1>
+    <div class="container">
 
+        <div class="caixa-busca">
+    <h1>tempo hoje</h1>      
     <input type="text" id="cidade" placeholder="digite o nome da cidade" value="" />
     <button onclick="buscarclima()" id="buscar">buscar</button>
-
-    <div id="resultado"></div>
-
+        </div>   
+        <div class="caixa-resultado">
+            <h2>resultado</h2>
+    <div id="resultado">nenhum dado ainda...</div>
+            
+        </div>
+    </div>
     <script src="logica.js"></script>
 </body>
 

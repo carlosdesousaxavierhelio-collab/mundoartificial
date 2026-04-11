@@ -2,7 +2,9 @@
          font-family: "Sekuya", system-ui;
          text-align: center;
          margin-top: 10%;
-         background-color: bisque;
+         background: url(https://images.pexels.com/photos/3941855/pexels-photo-3941855.jpeg?_gl=1*k8x2r9*_ga*NTg4OTIwODY1LjE3NzU4NjI1ODQ.*_ga_8JE65Q40S6*czE3NzU4NjI1ODQkbzEkZzEkdDE3NzU4NjMyMjEkajQ4JGwwJGgwhttps://images.pexels.com/photos/3941855/pexels-photo-3941855.jpeg?_gl=1*k8x2r9*_ga*NTg4OTIwODY1LjE3NzU4NjI1ODQ.*_ga_8JE65Q40S6*czE3NzU4NjI1ODQkbzEkZzEkdDE3NzU4NjMyMjEkajQ4JGwwJGgw);
+         background-size: cover;
+         background-repeat: no-repeat;
     }
 
     input, button{
@@ -11,9 +13,27 @@
         font-size: 16px;
     }
 
-    #resultado{
-       margin-top: 20px;
-       font-size: 18px;     
+    .container{
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
     }
 
-    
+    .caixa-busca{
+        width: 60vh;
+        padding: 15px;
+        border: 2px solid #333;
+        text-align: center;
+          background-color: rgb(128, 179, 201);
+    }
+
+    .caixa-resultado{
+           width: 60vh;
+        padding: 15px;
+        border: 2px solid #333;
+        text-align: center;
+         background-color: rgb(128, 179, 201);
+    }
